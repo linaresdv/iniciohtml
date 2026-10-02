@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Segoe UI';
+    color: #101820;
+    justify-items: center;
+}
+
+.contendor-global{
+    display: flex;
+    width: 60%;
+    margin-top: 50px;
+    box-shadow: 0px  0px 2px rgba(0, 0, 0, 0.4);
+}
+.contendor-global section {
+    width: 50%;
+    padding: 35px;
+}
+
+.panel-derecha {
+    display: block;
+}
+
+.formulario h2{
+    color: rgb(255, 29, 195);
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.formulario p {
+    color: #e367ff;
+    text-align: center;
+}
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.formulario form label{
+    width: 100%;
+    font-weight: 200;
+}
+
+.formulario form input, select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario form p {
+    text-align: left;
+}
+.formulario form a {
+    color: #f37fed;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.formulario form a:hover{
+    text-decoration: underline;
+}
+.botones{
+    display: flex;
+    margin-top: 20px;
+}
+
+.botones input[type="submit"]{
+    background-color: #f68ee8;
+    color: white;
+    border:none ;
+}
+
+.botones input[type="submit"]:hover{
+    background-color: #f599f6;
+    color: aliceblue;
+    border: none;
+}
+
+.botones input[type="submit"]:hover{
+ background-color: #ff99ec;}
+
+ .botones input[type="reset"]{
+    background-color: white;
+    color: #ff9aeb;
+    border: 1px solid #A52A2A;
+ }
+
+.formulario form input [type="reset"]:hover{
+    background-color: #fb93ea;
+}
+
+.panel-izquierdo{
+    background-image:url("../IMG/d7pwanyd8xm51.gif");
+    background-size: cover;
+     background-position: center 
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.card h2, .card h3 {
+    margin-bottom: 10px;
+    color: #556B2F;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85rem;
+    color: #777;
+    border-top: 1px solid #e0e0e0;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.card h2, .card h3 {
+    margin-bottom: 10px;
+    color: #556B2F;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85rem;
+    color: #777;
+    border-top: 1px solid #e0e0e0;
+}
